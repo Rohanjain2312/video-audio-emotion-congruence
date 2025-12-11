@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data - EXCLUDE ALL RAW DATA
+data/raw/
+data/processed/
+data/samples/*.mp4
+data/samples/*.avi
+data/samples/*.mov
+data/samples/*.flv
+*.zip
+*.tar.gz
+
+# Model checkpoints - EXCLUDE ALL CHECKPOINTS
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+*.ckpt
+
+# Logs and outputs
+outputs/logs/
+outputs/metrics/*.json
+outputs/comparisons/*.csv
+outputs/comparisons/*.png
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Hugging Face cache
+.cache/
+
+# Keep directory structure
+!.gitkeep
